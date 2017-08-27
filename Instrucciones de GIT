@@ -1,0 +1,15 @@
+Instrucciones de GIT
+
+git log
+git log -oneline
+
+Subir cambios a repositorio remoto
+
+1. Crear usuario en github
+2. Crear repositorio en GitHub
+3. Vincular el repositorio remoto en el local
+	git remote add [nombre alias del remoto] [url]
+para listar: 
+	git remote -v
+4. Empujar cambios al remoto dado de alta en paso 3.
+	git push [alias] [rama local]
