@@ -13,10 +13,22 @@ para listar:
 	git remote -v
 4. Empujar cambios al remoto dado de alta en paso 3.
 4.1 Si sale error entonces:
+	git commit . (para todos los archivos)
+	git commit [archivo] (para un archivo puntual)
 	git pull [alias] [rama local] --allow-unrelated-histories
 	y despues: 
 	git push [alias] [rama local]
-5. Crear repositorio en GitHub y despues trabajar (clonar al local)
+
+7. Creacion de ramas:
+	git branch (ver las ramas creadas)
+	git branch [nombre_rama] (crear rama)
+	git checkout [nombre_rama] (cambiar la rama)
+	git checkout -b [nombre_rama_X] (crea la rama y la selecciona)
+	git branch -d [nombre_rama] (borra la rama seleccionada)
+	// video en minuto 17:36 ///
+
+
+6. Crear repositorio en GitHub y despues trabajar (clonar al local)
 ir a directorio donde se quiere clonar:
  	cd [directorio]
  	git clone [url]
