@@ -12,6 +12,9 @@ Subir cambios a repositorio remoto
 para listar: 
 	git remote -v
 4. Empujar cambios al remoto dado de alta en paso 3.
+4.1 Si sale error entonces:
+	git pull [alias] [rama local] --allow-unrelated-histories
+	y despues: 
 	git push [alias] [rama local]
 5. Crear repositorio en GitHub y despues trabajar (clonar al local)
 ir a directorio donde se quiere clonar:
