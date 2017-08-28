@@ -13,3 +13,8 @@ para listar:
 	git remote -v
 4. Empujar cambios al remoto dado de alta en paso 3.
 	git push [alias] [rama local]
+5. Crear repositorio en GitHub y despues trabajar (clonar al local)
+ir a directorio donde se quiere clonar:
+ 	cd [directorio]
+ 	git clone [url]
+ 	git remote -v
